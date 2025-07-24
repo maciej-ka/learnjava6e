@@ -8,7 +8,7 @@ import javax.swing.JFrame;
 public class MyApp {
   public static void main(String[] args) {
     JFrame frame = new JFrame("Hello Java 2");
-    frame.add(new HelloComponent("Hello, Java!"));
+    frame.add(new HelloComponent(args[0]));
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     frame.setSize(300, 300);
     frame.setVisible(true);

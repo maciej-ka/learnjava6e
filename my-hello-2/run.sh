@@ -1,1 +1,1 @@
-java MyApp.java
+java MyApp.java "Hello, MaciejKa!"
